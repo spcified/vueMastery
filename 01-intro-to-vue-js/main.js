@@ -7,5 +7,6 @@ let app = new Vue({
       src: "assets/vmSocks-blue-onWhite.jpg",
       alt: "A pair of blue socks",
     },
+    href: "https://google.com",
   },
 });
