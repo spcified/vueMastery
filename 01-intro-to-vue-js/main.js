@@ -8,5 +8,11 @@ let app = new Vue({
       alt: "A pair of blue socks",
     },
     href: "https://google.com",
+    stock: 10,
+  },
+  computed: {
+    inStock() {
+      return this.stock;
+    },
   },
 });
