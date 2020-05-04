@@ -9,6 +9,7 @@ let app = new Vue({
     },
     href: "https://google.com",
     stock: 10,
+    onSale: true,
   },
   computed: {
     inStock() {

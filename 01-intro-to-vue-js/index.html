@@ -16,6 +16,7 @@
             </div>
             <div class="product-info">
                 <h1>{{ product }}</h1>
+                <h1 class="on-sale" v-show="onSale">On SALE!</h1>
                 <p>{{ description }}</p>
                 <p v-if="stock > 10">In Stock</p>
                 <p v-else-if="stock">Running low</p>

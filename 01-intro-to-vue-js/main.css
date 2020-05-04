@@ -32,3 +32,10 @@ nav {
 .product-info {
   text-align: left;
 }
+
+.on-sale {
+  color: tomato;
+  text-decoration-color: chartreuse;
+  text-shadow: 1px 1px 4px teal;
+  text-decoration: underline;
+}
